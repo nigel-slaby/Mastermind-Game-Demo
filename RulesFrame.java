@@ -4,6 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+//class creates the rules pop up 
 public class RulesFrame {
 
     JFrame frame; 
@@ -34,7 +35,6 @@ public class RulesFrame {
         frame.add(panel);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setTitle("Mastermind Rules");
-        //frame.pack();
         frame.setVisible(true);
         frame.setSize(400,400); 
         frame.setResizable(false);

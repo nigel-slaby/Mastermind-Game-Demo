@@ -1,3 +1,5 @@
+//this class was created for a Data Structures and Algorithms course
+
 public class ArrayList<E> implements List<E>{   
     //instance variables
     public static final int CAPACITY = 4;  //default array capacity

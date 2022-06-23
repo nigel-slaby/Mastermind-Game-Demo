@@ -1,16 +1,7 @@
-/**
- * From Data Structures and Algorithms in Java, Sixth Edition, Goodrich et al.
- */
+//this class was created for a Data Structures and Algorithms course
  
-//import java.util.Iterator;
-
-/**
- * A simplified version of the java.util.List interface.
- * nigel slaby 3064324
- */
- 
-public interface List<E> { //extends Iterable<E> {
-
+public interface List<E> { 
+    
     /**
      * Returns the number of elements in the list.
      *
@@ -68,12 +59,4 @@ public interface List<E> { //extends Iterable<E> {
      * than size()
      */
     E remove(int i) throws IndexOutOfBoundsException;
-
-    /**
-     * Returns an iterator of the elements stored in the list.
-     *
-     * @return iterator of the list's elements
-     */
-    //Not sure if i was supposed to use Iterator, but I didnt
-    //Iterator<E> iterator();
 }

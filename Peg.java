@@ -1,37 +1,26 @@
 import java.util.Random;
 import java.awt.*;
-/**
- * ACS-2947-002 W2021
- * As2
- * Peg Class
- * @author nigel slaby 3064324
- */
-public class Peg {
+
+//this class was created for a Data Structures and Algorithms course
+
+ public class Peg {
     private Color col;
     Random rando = new Random(); //randomizer instantiation
     int randomPick = rando.nextInt(6); //random number used for random colour
-    /**
-     * Constructs a peg
-     * @param col colour of peg
-     */  
-    public Peg(){
-        //this.col = col;
+     
+    public Peg(){        
     }
+
     //getter for peg colour
     public Color getPegColour(){
         return col;
     }
+
     //setter for peg colour
     public void setPegColour(Color c){
         this.col = c;
     }
-    /** Creates a string representation of Peg
-     *  @return string representation of Peg
-     */
-    //public String toString(){
-    //    String s = colour;
-    //    return s;
-    //}
+
     //used to assign a peg a random colour
     public void randomColour(){
         switch(randomPick){
